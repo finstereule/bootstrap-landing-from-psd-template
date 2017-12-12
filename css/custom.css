@@ -1,0 +1,147 @@
+html,body{
+	height: 100%;
+}
+
+header{
+	background-image: url(../img/banner.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img .logo{
+	padding-top: 40px;
+}
+
+.slogan{
+	padding: 5px;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.my-form{
+	background-color: #fff;
+	margin-top: -150px;
+	border: 0.4px;
+	border-style: outset;
+	padding: 0;
+	width: 360px;
+}
+
+.my-form .form-group{
+	padding: 20px;
+	margin-top: 20px;
+	width:100%;
+}
+
+.my-form button .my-submit{
+	padding: 5px 20px;
+	width: 200px;
+}
+
+.form-image{
+	width: 100%;	
+	margin: 0 0 10px 0;
+}
+
+.my-submit{
+	padding: 5px 25px;
+	margin: 15px 0;
+}
+
+.section1{
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.section1 p{
+	opacity: .8;
+	font-size: .9em;
+}
+
+.section2{
+	  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(105deg, #5fc18b 49%, #308355 49%, #44a36f 50%);
+	color: #fff;
+}
+
+.section-text{
+	padding: 60px 170px 140px;
+}
+
+.section2 p{
+	margin-right: auto;
+	margin-left: auto;
+	font-size: .9em;
+}
+
+.section-img{
+	padding: 20px;
+}
+
+.download-btn{
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.download-btn:hover{
+	background-color: rgba(0,0,0,0.1);
+	border: 2px solid #fff;
+	cursor: pointer;
+	border-style: outset;
+}
+
+.download-btn:active{
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+
+.download-btn:focus {
+	outline:0;
+	 box-shadow: none;
+}
+
+.section3{
+	background-image: url(../img/map.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-form{
+	background-color: rgba(256, 256, 256, 0.7);
+	width: 350px;
+	height: 350px;
+	padding: 60px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.contact-form-div{
+	padding: 100px;
+}
+
+.send-button{
+	border-radius: 50%;
+	background-color: #43a06d;
+	color: #fff;
+	height: 45px;
+	width: 45px;
+}
+
+footer{
+	background-color: #43a06d;
+	padding: 7px;
+	color: #fff;
+}
+
+@media screen and (min-height: 650px){
+	.section1{
+		margin-top: 60px;
+	}
+}

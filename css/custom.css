@@ -10,30 +10,35 @@ header{
     background-size: cover;
 }
 
-header img .logo{
-	padding-top: 40px;
+.logo{
+	height: 25%;
+	width: auto;
 }
 
 .slogan{
 	padding: 5px;
-	font-size: 2.5em;
+	font-size: 2em;
 	text-transform: uppercase;
 	color: #fff;
 }
 
 .my-form{
 	background-color: #fff;
-	margin-top: -150px;
 	border: 0.4px;
 	border-style: outset;
-	padding: 0;
-	width: 360px;
+	padding: 0px;
+	margin: 30px 0 -20px;
+	width: 70%;
 }
 
 .my-form .form-group{
 	padding: 20px;
-	margin-top: 20px;
+	height: 50%;
 	width:100%;
+}
+
+.my-form small{
+	padding: 0 7px;
 }
 
 .my-form button .my-submit{
@@ -52,7 +57,8 @@ header img .logo{
 }
 
 .section1{
-	margin-top: 60px;
+	text-align: center;
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
@@ -62,13 +68,13 @@ header img .logo{
 }
 
 .section2{
-	  background-color: #013A6B;
-  background-image: -webkit-linear-gradient(105deg, #5fc18b 49%, #308355 49%, #44a36f 50%);
+	background-color: #013A6B;
+    background-image: -webkit-linear-gradient(105deg, #5fc18b 49%, #308355 49%, #44a36f 50%);
 	color: #fff;
 }
 
 .section-text{
-	padding: 60px 170px 140px;
+	padding: 50px 80px 140px;
 }
 
 .section2 p{
@@ -79,6 +85,11 @@ header img .logo{
 
 .section-img{
 	padding: 20px;
+}
+
+.section-img2{
+	padding: 20px;
+	margin-top: 40px;
 }
 
 .download-btn{
@@ -106,13 +117,20 @@ header img .logo{
 
 .section3{
 	background-image: url(../img/map.jpg);
-    height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .contact-form{
+	width: 100%;
+}
+
+.contact-form-div{
+	padding: 60px;
+}
+
+/*.contact-form{
 	background-color: rgba(256, 256, 256, 0.7);
 	width: 350px;
 	height: 350px;
@@ -124,7 +142,7 @@ header img .logo{
 
 .contact-form-div{
 	padding: 100px;
-}
+}*/
 
 .send-button{
 	border-radius: 50%;
@@ -140,8 +158,122 @@ footer{
 	color: #fff;
 }
 
-@media screen and (min-height: 650px){
-	.section1{
-		margin-top: 60px;
-	}
+@media (max-height: 600px){
+.logo{
+	height: 50%!important;
+	width: auto;
 }
+
+.slogan{
+	padding: 10px;
+	font-size: 2.5em;
+}
+
+.my-form{
+	background-color: #fff;
+	border: 0.4px;
+	border-style: outset;
+	padding: 0px;
+	margin: 30px 0 -20px;
+	height: 30%;
+	width: 40%;
+	position: absolute;
+	top: 100%;
+	left: 30%;
+}
+
+.my-form .form-group{
+	height: 30%;
+	width: 40%;
+}
+
+.section1{
+	margin-top: 60%;
+}
+
+}
+
+
+@media (min-width: 576px) { 
+.logo{
+	height: 30%;
+	width: auto;
+}
+
+.slogan{
+	padding: 5px;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.my-form{
+	background-color: #fff;
+	border: 0.4px;
+	border-style: outset;
+	padding: 0px;
+	margin: 30px 0 -20px;
+	width: 40%;
+}
+
+.my-form .form-group{
+	padding: 20px;
+	height: 50%;
+	width:100%;
+}
+
+.section1 {
+/*	margin-top: 370px;*/
+	text-align: left;
+}
+
+.section1 img, .section1 h3{
+	padding: 15px;
+}
+
+.contact-form{
+	background-color: rgba(256, 256, 256, 0.7);
+	width: 350px;
+	height: 350px;
+	padding: 60px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.contact-form-div{
+	padding: 100px;
+}
+}
+
+@media (min-width: 768px) { 
+.section-text{
+	padding: 60px 200px 140px;
+}
+
+.my-form{
+	width: 30%;
+	left: 35%;
+}
+
+.my-form .form-group{
+	height: 30%;
+	width: 100%;
+}
+
+}
+
+@media (min-width: 992px) { 
+
+.logo{
+	height: 30%;
+	width: auto;
+}
+
+.slogan{
+	padding: 5px;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: #fff;
+}
+ }
